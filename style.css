@@ -6,7 +6,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  background-color: #ecad8f;
+  background-color: #fbc0bf;
   word-spacing: 0px;
   line-height: 25px;
 }
@@ -15,13 +15,13 @@ body {
   margin: 0 auto;
   width: 80%;
   height: max-content;
-  background-color: #e6dce5;
+  background-color: #ffffff;
 }
 
 nav {
   width: 100%;
   height: 100px;
-  background-color: #e6dce5d7;
+  background-color: #ffdcdb;
 }
 
 ul {
@@ -62,4 +62,34 @@ ul li a:hover {
   height: max-content;
   padding: 40px;
   flex-flow: column wrap;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+}
+
+.red {
+  text-align: center;
+  color: #ff6962;
+  font-weight: bold;
+}
+
+.amber {
+  text-align: center;
+  color: #ffb347;
+  font-weight: bold;
+}
+
+.green {
+  text-align: center;
+  color: #5fa777;
+  font-weight: bold;
 }
